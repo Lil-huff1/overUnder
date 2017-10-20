@@ -35,7 +35,7 @@ public class Calc
       System.out.println("GAMBLE TRUE");
       int send = finTot;
       sendfin = String.valueOf(send);
-      Text.sendText(gameID, sendfin);
+      //Text.sendText(gameID, sendfin);
     }
     else
     {
@@ -44,7 +44,7 @@ public class Calc
     }
     else
     {
-      Text.sendText("test", "1");
+      //Text.sendText("test", "1");
     }
   }
 }
